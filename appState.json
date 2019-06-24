@@ -1,0 +1,85 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4075cdc1-5562-4ad3-ac0c-dfab1978d57f": {
+        "id": "4075cdc1-5562-4ad3-ac0c-dfab1978d57f",
+        "parent": null,
+        "name": "MyFirstProject-DemoUser",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "1ce645e4-b17f-4a50-a5b2-f512c2cd5029"
+        ],
+        "isRemovable": false,
+        "filePath": "MyFirstProject-DemoUser"
+      },
+      "1ce645e4-b17f-4a50-a5b2-f512c2cd5029": {
+        "id": "1ce645e4-b17f-4a50-a5b2-f512c2cd5029",
+        "parent": "4075cdc1-5562-4ad3-ac0c-dfab1978d57f",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyFirstProject-DemoUser/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "df824b9c-4411-4c7b-841c-cc0a09e74d79": {
+            "id": "df824b9c-4411-4c7b-841c-cc0a09e74d79",
+            "functionId": "1ce645e4-b17f-4a50-a5b2-f512c2cd5029",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "4075cdc1-5562-4ad3-ac0c-dfab1978d57f",
+    "openFiles": [
+      "1ce645e4-b17f-4a50-a5b2-f512c2cd5029"
+    ],
+    "currentFileId": "1ce645e4-b17f-4a50-a5b2-f512c2cd5029",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MyFirstProject-DemoUser",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1561363141146
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "MyFirstProject-DemoUser",
+      "url": "https://github.com/HirudineeADRT/MyFirstProject-DemoUser"
+    }
+  }
+}
